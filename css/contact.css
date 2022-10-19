@@ -1,0 +1,30 @@
+.contact {
+    margin-top: -5px;
+}
+
+.contact__info {
+	display: flex;
+	justify-content: space-between;
+	margin: 44px 0 60px -1px;
+}
+
+.contact__text {
+	max-width: 380px;
+}
+
+.contact__p {
+	font-size: 16px;
+	line-height: 22px;
+	margin: 0 0 20px 0;
+}
+
+.contact__p-gold {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	font-size: 26px;
+	line-height: 34px;
+	text-transform: uppercase;
+	color: #C29974;
+	margin-top: -2px;
+}
+

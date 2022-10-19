@@ -1,0 +1,285 @@
+/* выборка */
+.settings__background{
+	background: rgba(125, 151, 218, 0.2);
+}
+
+.settings__options{
+	margin: 0 0 60px 0;
+	-webkit-display: flex;
+	-moz-display: flex;
+	-ms-display:flex;
+	display: flex;
+	align-items: flex-start;
+	padding: 42px 0px;
+}
+
+.settings__options h3{
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 22px;
+	margin: 0 0 15px 0;
+}
+
+.settings__options span,
+.settings__options label{
+	font-size: 16px;
+	line-height: 22px;
+}
+
+.settings__cost{
+	margin: 0 94px 0 0;
+}
+
+.settings__cost input{
+	margin: 0 0 6px 0;
+}
+
+.settings__number{
+	-webkit-display: flex;
+	-moz-display: flex;
+	-ms-display:flex;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.settings__color{
+	margin: 0 124px 0 0;
+}
+
+.settings__color li{
+	margin: 0 0 15px 0;
+}
+
+.settings__color li:last-child{
+	margin: 0;
+}
+
+.settings__delivery{
+	margin: 0 69px 0 0;
+}
+
+.settings__delivery li{
+	margin: 0 0 10px 0;
+}
+
+.settings__delivery li:last-child{
+	margin: 0
+}
+
+.settings__amount{
+	margin: 0 60px 0 0;
+}
+
+.settings__amount ul{
+	-webkit-display: flex;
+	-moz-display: flex;
+	-ms-display:flex;
+	display: flex;
+}
+
+.settings__line{
+	-webkit-display: flex;
+	-moz-display: flex;
+	-ms-display:flex;
+	display: flex;
+	align-items: flex-start;
+}
+
+.buttons{
+	margin: 0 60px 0 0;
+}
+
+.buttons__item{
+	padding: 7px 0 0 0;
+}
+
+.buttons__item label{
+	padding: 7px 28px;
+	background: #FFFFFF;
+}
+
+.buttons__item label:hover{
+	background: #EDDEEB;
+	color: #877379;;
+}
+
+.radio-input_button:checked + .radio-label_button{
+	background: #F3D0DB;
+}
+
+/* img */
+.toys__list {
+	-webkit-display: flex;
+	-moz-display: flex;
+	-ms-display:flex;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 0 0 30px 0;
+}
+
+.toys__item {
+	margin: 0 0 20px 0;
+}
+
+.toys__item a {
+	-webkit-display: flex;
+	-moz-display: flex;
+	-ms-display:flex;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.toys__img {
+	margin: 0 0 30px 0;
+	height: 385px;
+	position: relative;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 29px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #1E0606;
+}
+
+.toys__img div {
+	-webkit-display: flex;
+	-moz-display: flex;
+	-ms-display:flex;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: "Montserrat", "Arial", sans-serif;
+	font-weight: bold;
+	font-size: 26px;
+	line-height: 29px;
+	text-transform: uppercase;
+	text-shadow: 0px 0px 40px rgba(147, 3, 3, 0.25);
+
+	position: absolute;
+	width: 207px;
+	height: 207px;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	background: #E5EAF8;
+	opacity: 0;
+}
+
+.toys__img div:hover {
+	opacity: 0.9;
+}
+
+.toys__img div:active {
+	background: rgba(229, 234, 248, 0.67);
+}
+
+.toys__item h3 {
+	margin: 0 0 15px 0;
+	font-size: 14px;
+	line-height: 19px;
+	font-weight: 400;
+	line-height: 19px;
+	color: #1E0606;
+}
+
+.toys__item p {
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 22px;
+	margin: 0 0 25px 0;
+	font-weight: 700;
+	text-align: center;
+	color: #1E0606;
+}
+
+/* выборка цвета */
+.checkbox__label-toys:hover {
+	text-decoration: underline;
+}
+
+.checkbox__label-toys {
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+
+.checkbox__label-toys::before {
+	content: "";
+    display: block;
+	width: 16px;
+	height: 15px;
+	border: 2px solid #C29974;
+	border-radius: 3px;
+	margin: 0 15px 0 0;
+}
+
+.checkbox__label-toys::after {
+    content: "";
+    background: url(../images/toys/color-x.svg);
+    width: 17px;
+	height: 16px;
+	position: absolute;
+	top: 3px;
+	left: 1px;
+    opacity: 0;
+}
+
+.checkbox__input-toys:checked + .checkbox__label-toys::after {
+	opacity: 1;
+}
+
+.checkbox__input-toys:disabled + .checkbox__label-toys {
+	color: #908484;
+}
+
+.checkbox__input-toys:disabled + .checkbox__label-toys::before {
+	border: 2px solid #E1CDBA;
+}
+
+.checkbox__input-toys:disabled + .checkbox__label-toys:hover {
+	text-decoration: none;
+}
+
+/* ползунок */
+input[type=range]  {
+	width: 188px;
+	appearance: none;
+	outline: none;
+	overflow: hidden;
+	height: 4px;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+	height: 4px;
+	background-color: #73757C;
+}
+
+input[type=range]::-webkit-slider-thumb {
+	background: white;
+	cursor: pointer;
+	width: 15px;
+	height: 15px;
+	appearance: none;
+	margin-top: -4px;
+	box-shadow: -200px  0 0 200px  #C29974;
+}
+
+input[type=range]::-moz-range-track {
+	height: 4px;
+	background-color: #73757C;
+}
+
+
+input[type=range]::-moz-range-thumb {
+	background: white;
+	cursor: pointer;
+	height: 4px;
+	border-radius:5px;
+	box-shadow: -200px  0px 0px 200px   #C29974;
+	padding: 0px;
+	margin: 0px;
+}
+

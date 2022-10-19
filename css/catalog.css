@@ -1,0 +1,45 @@
+/* РАСТОЯНИЕ МЕЖДУ img */
+.categories__space {
+    margin-right: 20px;
+}
+
+/* h2 */
+.categories__h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #1E0606;
+    display: flex;
+    justify-content: center;
+    margin: 0 300px 8px 0;
+}
+
+/* p */
+.categories__p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+    word-spacing: 2px;
+    letter-spacing: 0px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 196px;
+}
+
+.categories__p1 {
+    padding-right: 34%;
+    margin-bottom: 1px;
+}
+
+.categories__p2 {
+    padding-right: 31%;
+    margin-bottom: 1px;
+}
+
+.categories__p3 {
+    padding-right: 34%;
+    margin-bottom: 52px;
+}

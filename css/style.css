@@ -1,0 +1,298 @@
+/* ЗАГЛАВЛЕНИЯ h2 */
+.main-h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #1E0606;
+}
+
+/* БАННЕР */
+.banner {
+    background: #EEE4DB;
+    margin-top: 128px;
+    display: flex;
+}
+
+.banner__shift {
+    display: flex;
+    flex-direction: column;
+    margin-left: 31px;
+    margin-top: 15px;
+}
+
+.banner__namber {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 60px;
+    line-height: 73px;
+    color: #E4D9D0;
+    margin: 0 0 10px 0;
+}
+
+.banner__rectangle {
+    border: none;
+    width: 31px;
+    height: 3px;
+    padding: 0 0 0 3px;
+    background: #D6CAC2;
+    margin: 0 0 11px 0;
+}
+
+.banner__rectangle:hover {
+    background: #715F5B;
+}
+
+.banner__active {
+    background: #715F5B;
+}
+
+.banner__img {
+    width: 635px;
+    height: 461px;
+    left: 555px;
+    top: 142px;
+    margin-top: -90px;
+    margin-right: 100px;
+}
+
+
+.banner__h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    margin-left:41px;
+    margin-top: 85px;
+    margin-bottom: -10px;
+}
+
+.banner__text {
+    font-family: 'Crimson Pro', serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    margin-left: 44px;
+    margin-right: 160px;
+    margin-bottom: 23px;
+    white-space: nowrap;
+}
+
+.banner__button {
+    margin-left: 42px;
+}
+
+.banner__info {
+    text-align: center;
+    background: #c29974;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border: none;
+    width: 100%;
+    margin: 0 0 0 auto;
+    text-transform: uppercase;
+    display: block;
+}
+
+/* КАТЕГОРИЯ ПРОДУКТОВ */
+.categories__title {
+    margin: 90px 0 30px;
+}
+
+.categories__ul {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.categories__leaf {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 90px;
+}
+
+.categories__button {
+    margin-right: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background: #E2F1F8;
+    width: 37px;
+    height: 37px;
+}
+
+.categories__text {
+    line-height: 22px;
+    max-width: 580px;
+    margin: 0;
+    padding-left: 14px;
+}
+
+/* ИСТОРИЯ (DELIVERY) */
+.history {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 90px;
+}
+
+.history__img {
+    background: #E2F1F8;
+    margin: 0 60px 0 0;
+}
+
+.history__title {
+    padding-left: 60px;
+    margin-bottom: 4px;
+}
+
+.histore__brief-1 {
+    margin-bottom: 8px;
+}
+
+.histore__brief-2 {
+    margin-bottom: 19px;
+}
+
+.histore__brief-3 {
+    margin-bottom: 32px;
+}
+
+.histore__button {
+    font-family: 'Crimson Pro', serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 34px;
+    border: none;
+    background: none;
+    display: flex;
+    align-items: center;
+    padding-left: 60px;
+}
+
+.histore__button-active {
+    font-weight: 700;
+    background: #E2F1F8;
+    width: 326px;
+    height: 55px;
+}
+
+.histore__text1,
+.histore__text2 {
+    padding-left: 60px;
+    max-width: 470px;
+}
+
+.histore__button-push {
+    margin-left: 60px;
+    margin-top: 13px;
+}
+
+/* КОМПАНИИ */
+.company__hidden {
+    font-size: 0;
+}
+
+.company__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 112px;
+}
+
+/* ИНФОРМАЦИЯ */
+.information {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 155px;
+}
+
+.information__style1 {
+    background: #E2F1F8;
+    margin: 0 57px 0 0;
+    padding: 0 44px 35px 30px;
+}
+
+.information__title1 {
+    margin: -25px 0 -18px 0;
+}
+
+.information__shapter {
+    font-family: 'Crimson Pro', serif;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.information__text1 {
+    width: 470px;
+    margin-bottom: 32px;
+}
+
+.information__style2 {
+    background: #E2F1F8;
+    margin: 0 57px 0 0;
+    padding: 0 30px 0 30px;
+}
+
+
+.information__title2 {
+    margin: -25px 0 -18px 0;
+}
+
+.information__text2 {
+    width: 470px;
+    margin-top: 39px;
+    margin-bottom: 30px;
+}
+
+.information__map {
+    margin: 0 0 -130px 0;
+}
+
+/* ВСПЛЫВАЮЩЕЕ ОКНО (popup) */
+.popup__main{
+	position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(125, 151, 218, 0.8);
+}
+
+.popup__open {
+	display: none;
+}
+
+.popup__form{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.popup__close{
+	position: absolute;
+	top: 0;
+	right: -30px;
+	background: none;
+    border: none;
+}
+
+.popup__close:hover{
+	opacity: 0.7;
+}
+
+.popup__close:active{
+	opacity: 0.4;
+}
+
+.popup__h3{
+	font-size: 0;
+}
